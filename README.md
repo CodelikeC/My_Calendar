@@ -6,3 +6,4 @@
 - Depending on backend logic and SOLID principles. 
 - Managing data on the server/client. 
 => An application in laptop that can be used to check your daily routines and add some important events if you want.
+![Ảnh chụp màn hình 2025-01-24 225107](https://github.com/user-attachments/assets/43c6e8ba-4723-4653-b462-e393a6e685ca)
