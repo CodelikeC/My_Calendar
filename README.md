@@ -1,3 +1,4 @@
+![Ảnh chụp màn hình 2025-01-24 225207](https://github.com/user-attachments/assets/1543c018-0d7b-4fde-a376-050722d8342d)
 - Front end: HTML, JavaScript 
 - Backend : C++
 - Tools and framework: Crow C++, WT
