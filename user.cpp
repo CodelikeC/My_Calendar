@@ -137,7 +137,29 @@ void User :: Denied_Authentication()
 void User :: database()
 {
     cout <<"---Database---" << endl; 
-    
+    vector <User> user;
+    user.push_back(User(1234, "Huy", "")); 
+    user.push_back(User(5678, "Tuan", "")); 
+    user.push_back(User(9101, "Tri", ""));
+
+    // Luu tru thong tin lich 
+    vector<Calendar> calendar;
+    calendar.push_back(Calendar(30, 2023,12)); 
+    calendar.push_back(Calendar(31, 2023, 1)); 
+    calendar.push_back(Calendar(28, 2023, 1));
+
+    for (int i = 0 ; i < calendar.size(); i++)
+    {
+        cout <<"The calendar is:" << calendar.capacity() << endl; 
+        if (calendar.empty() == true)
+        {
+            cout <<"The calendar is empty" << endl; 
+        }
+        else 
+        {
+            cout <<"The calendar is not empty" << endl;
+        }
+    }
 }
 
 void User :: SignIn()
