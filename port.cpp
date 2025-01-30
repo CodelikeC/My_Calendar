@@ -7,6 +7,9 @@ using namespace std;
 #include <openssl/rsa.h>
 #include <openssl/pem.h>
 
+#include <sql.h>
+#include <sqlext.h> 
+
 #define CPPHTTPLIB_OPENSSL_SUPPORT
 #include "httpext.h"
 
