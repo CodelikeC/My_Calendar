@@ -22,7 +22,7 @@ Calendar :: Calendar(int year, int months, int days)
     this -> days = days;
 }
 
-void Calendar :: setYear()
+void Calendar :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -32,7 +32,7 @@ int Calendar :: getYear()
     return year; 
 }
 
-void Calendar :: setMonths()
+void Calendar :: setMonths(int months)
 {
     this -> months = months; 
 }
@@ -42,7 +42,7 @@ int Calendar :: getMonths()
     return months; 
 }
 
-void Calendar :: setDays()
+void Calendar :: setDays(int days)
 {
     this -> days = days ;
 }
