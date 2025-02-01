@@ -21,7 +21,7 @@ January :: January(int year, int months, int days)
     this -> days = days; 
 }
 
-void January :: setDays()
+void January :: setDays(int days)
 {
     this -> days = days; 
 }
@@ -31,7 +31,7 @@ int January :: getDays()
     return days; 
 }
 
-void January :: setMonths()
+void January :: setMonths(int months)
 {
     this -> months = months ; 
 }
@@ -41,7 +41,7 @@ int January :: getMonths()
     return months; 
 }
 
-void January :: setYear()
+void January :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -82,7 +82,7 @@ Febuary :: ~Febuary()
     exit(0); 
 }
 
-void Febuary :: setDays()
+void Febuary :: setDays(int days)
 {
     this -> days = days; 
 }
@@ -92,7 +92,7 @@ int Febuary :: getDays()
     return days; 
 }
 
-void Febuary :: setMonths()
+void Febuary :: setMonths(int months)
 {
     this -> months = months ; 
 }
@@ -102,7 +102,7 @@ int Febuary :: getMonths()
     return months ; 
 }
 
-void Febuary :: setYear()
+void Febuary :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -141,7 +141,7 @@ March :: March (int year, int months, int days)
     this -> days = days ; 
 }
 
-void March :: setDays()
+void March :: setDays(int days)
 {
     this -> days = days ; 
 }
@@ -151,7 +151,7 @@ int March :: getDays()
     return days; 
 }
 
-void March :: setMonths()
+void March :: setMonths(int months)
 {
     this -> months = months;
 }
@@ -161,7 +161,7 @@ int March :: getMonths()
     return months; 
 }
 
-void March :: setYear()
+void March :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -202,7 +202,7 @@ April :: April(int year, int months, int days)
     this -> days = days;
 }
 
-void April :: setDays()
+void April :: setDays(int days)
 {
     this -> days = days; 
 }
@@ -212,7 +212,7 @@ int April :: getDays()
     return days;
 }
 
-void April :: setMonths()
+void April :: setMonths(int months)
 {
     this -> months = months; 
 }
@@ -222,7 +222,7 @@ int April :: getMonths()
     return months; 
 }
 
-void April :: setYear()
+void April :: setYear(int year)
 {
     this -> year = year ; 
 }
@@ -263,7 +263,7 @@ May :: May(int year, int days, int months)
     this -> months = months ; 
 }
 
-void May :: setDays()
+void May :: setDays(int days)
 {
     this -> days = days; 
 }
@@ -273,7 +273,7 @@ int May :: getDays()
     return days; 
 }
 
-void May :: setMonths()
+void May :: setMonths(int months)
 {
     this -> months = months; 
 }
@@ -283,7 +283,7 @@ int May :: getMonths()
     return months ; 
 }
 
-void May :: setYear()
+void May :: setYear(int year)
 {
     this -> year = year;  
 }
@@ -324,7 +324,7 @@ June :: June(int year , int months, int days)
     this -> days = days; 
 }
 
-void June :: setDays()
+void June :: setDays(int days)
 {
     this -> days = days ;
 }
@@ -334,7 +334,7 @@ int June :: getDays()
     return days; 
 }
 
-void June :: setMonths()
+void June :: setMonths(int months)
 {
     this -> months  = months; 
 }
@@ -344,7 +344,7 @@ int June :: getMonths()
     return months; 
 }
 
-void June :: setYear()
+void June :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -385,7 +385,7 @@ July :: July(int year, int months, int days)
     this -> days = days; 
 }
 
-void July :: setDays()
+void July :: setDays(int days)
 {
     this -> days = days;
 }
@@ -395,7 +395,7 @@ int July :: getDays()
     return days; 
 }
 
-void July :: setMonths()
+void July :: setMonths(int months)
 {
     this -> months = months; 
 }
@@ -405,7 +405,7 @@ int July :: getMonths()
     return months;
 }
 
-void July :: setYear()
+void July :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -446,7 +446,7 @@ August :: August(int year, int months, int days)
     this -> days = days; 
 }
 
-void August :: setDays()
+void August :: setDays(int days)
 {
     this -> days = days;
 }
@@ -456,7 +456,7 @@ int August :: getDays()
     return days; 
 }
 
-void August :: setMonths()
+void August :: setMonths(int months)
 {
     this -> months = months; 
 }
@@ -466,7 +466,7 @@ int August :: getMonths()
     return months; 
 }
 
-void August :: setYear()
+void August :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -507,7 +507,7 @@ September :: September(int days , int year, int months)
     this -> year = year; 
 }
 
-void September :: setDays()
+void September :: setDays(int days)
 {
     this -> days = days; 
 }
@@ -517,7 +517,7 @@ int September :: getDays()
     return days; 
 }
 
-void September :: setMonths()
+void September :: setMonths(int months)
 {
     this -> months = months; 
 }
@@ -527,7 +527,7 @@ int September :: getMonths()
     return months;
 }
 
-void September :: setYear()
+void September :: setYear(int year)
 {
     this -> year= year; 
 }
@@ -569,7 +569,7 @@ October :: October(int days , int months, int year)
     this -> year = year; 
 }
 
-void October :: setDays()
+void October :: setDays(int days)
 {
     this -> days = days; 
 }
@@ -579,7 +579,7 @@ int October :: getDays()
     return days; 
 }
 
-void October :: setMonths()
+void October :: setMonths(int months)
 {
     this -> months = months;
 }
@@ -589,7 +589,7 @@ int October :: getMonths()
     return months ; 
 }
 
-void October :: setYear()
+void October :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -630,7 +630,7 @@ November :: ~November()
     exit(0) ; 
 }
 
-void November :: setDays()
+void November :: setDays(int days)
 {
     this -> days = days ; 
 }
@@ -640,7 +640,7 @@ int November :: getDays()
     return days;
 }
 
-void November :: setMonths()
+void November :: setMonths(int months)
 {
     this -> months = months;
 }
@@ -650,7 +650,7 @@ int November :: getMonths()
     return months ; 
 }
 
-void November :: setYear()
+void November :: setYear(int year)
 {
     this -> year = year; 
 }
@@ -691,7 +691,7 @@ December :: December (int days, int months , int year)
     this -> year = year; 
 }
 
-void December :: setDays()
+void December :: setDays(int days)
 {
     this-> days = days; 
 }
@@ -701,7 +701,7 @@ int December :: getDays()
     return days; 
 }
 
-void December :: setMonths()
+void December :: setMonths(int days)
 {
     this -> months = months; 
 }
@@ -711,7 +711,7 @@ int December :: getMonths()
     return months;
 }
 
-void December :: setYear()
+void December :: setYear(int year)
 {
     this -> year = year; 
 }
